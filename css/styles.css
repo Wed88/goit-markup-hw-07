@@ -69,12 +69,43 @@ img {
 
 /* Components */
 
+.logo {
+  font-family: var(--second-font);
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
 .second-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 50px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* header */
@@ -95,24 +126,8 @@ img {
   align-items: center;
 }
 
-.logo,
-.logo-web {
-  font-family: var(--second-font);
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-
-.logo-web {
-  color: var(--accent-color);
-}
-
-.logo {
+.logo-studio-black {
   color: #000000;
-}
-
-.logo-studio {
-  color: #ffffff;
 }
 
 .nav-list {
@@ -404,39 +419,22 @@ img {
   margin-bottom: 16px;
 }
 
-.social-list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.social-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
+.social-team-link {
   background-color: inherit;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-link:hover,
-.social-link:focus {
+.social-team-link:hover,
+.social-team-link:focus {
   background-color: #2196f3;
 }
 
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-  fill: #ffffff;
+.social-team-icon {
+  fill: #afb1b8;
 }
 
-.social-icon {
-  width: 20px;
-  height: 20px;
-  fill: #afb1b8;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.social-team-link:hover .social-team-icon,
+.social-team-link:focus .social-team-icon {
+  fill: #ffffff;
 }
 
 /* Постоянные клиенты */
@@ -489,6 +487,10 @@ img {
   display: flex;
 }
 
+.logo-studio-white {
+  color: #ffffff;
+}
+
 .address {
   margin-top: 20px;
 }
@@ -531,15 +533,7 @@ img {
 }
 
 .social-footer-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-footer-link:hover,
@@ -548,8 +542,6 @@ img {
 }
 
 .social-footer-icon {
-  width: 20px;
-  height: 20px;
   fill: #ffffff;
 }
 
