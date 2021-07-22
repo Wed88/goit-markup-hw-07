@@ -44,21 +44,3 @@
   color: var(--second-color);
   margin-bottom: 16px;
 }
-
-.social-team-link {
-  background-color: inherit;
-}
-
-.social-team-link:hover,
-.social-team-link:focus {
-  background-color: #2196f3;
-}
-
-.social-team-icon {
-  fill: #afb1b8;
-}
-
-.social-team-link:hover .social-team-icon,
-.social-team-link:focus .social-team-icon {
-  fill: #ffffff;
-}

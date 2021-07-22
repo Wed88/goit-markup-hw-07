@@ -75,6 +75,14 @@ img {
   color: var(--accent-color);
 }
 
+.logo-studio-black {
+  color: #000000;
+}
+
+.logo-studio-white {
+  color: #ffffff;
+}
+
 .second-title {
   font-size: 36px;
   line-height: 1.17;
@@ -104,6 +112,45 @@ img {
   height: 20px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-team-link {
+  background-color: inherit;
+}
+
+.social-team-link:hover,
+.social-team-link:focus {
+  background-color: #2196f3;
+}
+
+.social-team-icon {
+  fill: #afb1b8;
+}
+
+.social-team-link:hover .social-team-icon,
+.social-team-link:focus .social-team-icon {
+  fill: #ffffff;
+}
+
+.social-footer-list {
+  display: flex;
+}
+
+.social-footer-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-footer-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-footer-link:hover,
+.social-footer-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-footer-icon {
+  fill: #ffffff;
 }
 
 .backdrop {
@@ -320,7 +367,7 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
@@ -330,29 +377,25 @@ img {
   align-items: center;
 }
 
-.logo-studio-black {
-  color: #000000;
-}
-
-.nav-list {
+.main-nav__list {
   display: flex;
   align-items: center;
   margin-left: 93px;
 }
 
-.nav-item:not(:last-child) {
+.main-nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav-link.current {
+.main-nav__link.main-nav__link--current {
   color: var(--accent-color);
 }
 
-.nav-link.current::after {
+.main-nav__link.main-nav__link--current::after {
   background: var(--accent-color);
 }
 
-.nav-link {
+.main-nav__link {
   position: relative;
   font-weight: 500;
   font-size: 14px;
@@ -363,7 +406,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link::after {
+.main-nav__link::after {
   position: absolute;
   display: block;
   bottom: -32px;
@@ -377,23 +420,23 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav-link:hover,
-.nav-link:active,
-.nav-link:focus,
-.mail-link:hover,
-.mail-link:focus,
-.tel-link:hover,
-.tel-link:focus,
-.mail-link:hover .contact-icon,
-.mail-link:focus .contact-icon,
-.tel-link:hover .contact-icon,
-.tel-link:focus .contact-icon {
+.main-nav__link:hover,
+.main-nav__link:active,
+.main-nav__link:focus,
+.contact__mail:hover,
+.contact__mail:focus,
+.contact__tel:hover,
+.contact__tel:focus,
+.contact__mail:hover .contact__icon,
+.contact__mail:focus .contact__icon,
+.contact__tel:hover .contact__icon,
+.contact__tel:focus .contact__icon {
   color: var(--accent-color);
   fill: var(--accent-color);
 }
 
-.nav-link:hover::after,
-.nav-link:focus::after {
+.main-nav__link:hover::after,
+.main-nav__link:focus::after {
   display: block;
   content: '';
   height: 4px;
@@ -402,23 +445,23 @@ img {
   margin-top: 28px;
 }
 
-.contact-list {
+.contact {
   display: flex;
   margin-left: auto;
   align-items: center;
 }
 
-.contact-item:not(:last-child) {
+.contact__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contact-icon {
+.contact__icon {
   fill: var(--second-color);
   margin-right: 10px;
 }
 
-.mail-link,
-.tel-link {
+.contact__mail,
+.contact__tel {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -611,24 +654,6 @@ img {
   margin-bottom: 16px;
 }
 
-.social-team-link {
-  background-color: inherit;
-}
-
-.social-team-link:hover,
-.social-team-link:focus {
-  background-color: #2196f3;
-}
-
-.social-team-icon {
-  fill: #afb1b8;
-}
-
-.social-team-link:hover .social-team-icon,
-.social-team-link:focus .social-team-icon {
-  fill: #ffffff;
-}
-
 .client-list {
   display: flex;
   justify-content: space-between;
@@ -791,10 +816,6 @@ img {
   display: flex;
 }
 
-.logo-studio-white {
-  color: #ffffff;
-}
-
 .address {
   margin-top: 20px;
 }
@@ -826,27 +847,6 @@ img {
   text-transform: uppercase;
   margin-bottom: 20px;
   color: #ffffff;
-}
-
-.social-footer-list {
-  display: flex;
-}
-
-.social-footer-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social-footer-link {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.social-footer-link:hover,
-.social-footer-link:focus {
-  background-color: var(--accent-color);
-}
-
-.social-footer-icon {
-  fill: #ffffff;
 }
 
 .mail-address,

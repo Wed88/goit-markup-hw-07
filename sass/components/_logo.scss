@@ -4,4 +4,12 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+
+  &-studio-black {
+    color: #000000;
+  }
+
+  &-studio-white {
+    color: #ffffff;
+  }
 }

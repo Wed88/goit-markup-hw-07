@@ -8,10 +8,6 @@
   display: flex;
 }
 
-.logo-studio-white {
-  color: #ffffff;
-}
-
 .address {
   margin-top: 20px;
 }
@@ -43,27 +39,6 @@
   text-transform: uppercase;
   margin-bottom: 20px;
   color: #ffffff;
-}
-
-.social-footer-list {
-  display: flex;
-}
-
-.social-footer-item:not(:last-child) {
-  margin-right: 10px;
-}
-
-.social-footer-link {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.social-footer-link:hover,
-.social-footer-link:focus {
-  background-color: var(--accent-color);
-}
-
-.social-footer-icon {
-  fill: #ffffff;
 }
 
 .mail-address,

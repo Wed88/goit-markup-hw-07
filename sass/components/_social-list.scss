@@ -20,3 +20,42 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.social-team-link {
+  background-color: inherit;
+}
+
+.social-team-link:hover,
+.social-team-link:focus {
+  background-color: #2196f3;
+}
+
+.social-team-icon {
+  fill: #afb1b8;
+}
+
+.social-team-link:hover .social-team-icon,
+.social-team-link:focus .social-team-icon {
+  fill: #ffffff;
+}
+
+.social-footer-list {
+  display: flex;
+}
+
+.social-footer-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-footer-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-footer-link:hover,
+.social-footer-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-footer-icon {
+  fill: #ffffff;
+}
