@@ -1,4 +1,4 @@
-.list-features {
+.features__list {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -7,13 +7,13 @@
   margin-left: -30px;
 }
 
-.item-features {
+.features__item {
   flex-basis: calc((100% - 120px) / 4);
   margin-top: 30px;
   margin-left: 30px;
 }
 
-.features-thumb {
+.features__thumb {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,12 +24,12 @@
   border-radius: 4px;
 }
 
-.feature-svg {
+.feature__svg {
   width: 70px;
   height: 70px;
 }
 
-.subtitle-features {
+.features__subtitle {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -37,7 +37,7 @@
   margin-bottom: 10px;
 }
 
-.text-features {
+.features__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;

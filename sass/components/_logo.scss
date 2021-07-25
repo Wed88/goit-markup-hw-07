@@ -5,11 +5,11 @@
   letter-spacing: 0.03em;
   color: var(--accent-color);
 
-  &-studio-black {
+  &--theme--white {
     color: #000000;
   }
 
-  &-studio-white {
+  &--theme--dark {
     color: #ffffff;
   }
 }
