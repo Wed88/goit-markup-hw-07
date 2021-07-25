@@ -51,8 +51,8 @@
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.hero__button:hover {
-  background: #188ce8;
+  &:hover {
+    background: #188ce8;
+  }
 }

@@ -14,16 +14,11 @@
   border-radius: 4px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.client__link:hover,
-.client__link:focus {
-  border: 1px solid var(--accent-color);
-}
-
-.client__link:hover .client__icon,
-.client__link:focus .client__icon {
-  fill: var(--accent-color);
+  &:hover,
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 }
 
 .client__icon {
@@ -32,4 +27,9 @@
   fill: #afb1b8;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .client__link:hover &,
+  .client__link:focus & {
+    fill: var(--accent-color);
+  }
 }

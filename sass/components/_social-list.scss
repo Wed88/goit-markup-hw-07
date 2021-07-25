@@ -23,20 +23,20 @@
 
 .team__social-link {
   background-color: inherit;
-}
 
-.team__social-link:hover,
-.team__social-link:focus {
-  background-color: #2196f3;
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+  }
 }
 
 .team__social-icon {
   fill: #afb1b8;
-}
 
-.team__social-link:hover .team__social-icon,
-.team__social-link:focus .team__social-icon {
-  fill: #ffffff;
+  .team__social-link:hover &,
+  .team__social-link:focus & {
+    fill: #ffffff;
+  }
 }
 
 .footer__social-item:not(:last-child) {
@@ -45,11 +45,11 @@
 
 .footer__social-link {
   background-color: rgba(255, 255, 255, 0.1);
-}
 
-.footer__social-link:hover,
-.footer__social-link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .footer__social-icon {
