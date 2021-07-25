@@ -1,22 +1,22 @@
-.section-work {
+.work {
   padding-bottom: 94px;
 }
 
-.list-work {
+.work__list {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
 }
 
-.item-work {
+.work__item {
   position: relative;
   flex-basis: calc((100% - 90px) / 3);
   margin-top: 30px;
   margin-left: 30px;
 }
 
-.overlay-image-work {
+.work__overlay {
   position: absolute;
   bottom: 0;
   left: 0;
