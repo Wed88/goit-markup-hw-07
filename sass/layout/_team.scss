@@ -1,15 +1,15 @@
-.section-team {
+.team {
   background: #f5f4fa;
 }
 
-.list-team {
+.team__list {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
 }
 
-.item-team {
+.team__item {
   flex-basis: calc((100% - 120px) / 4);
   margin-top: 30px;
   margin-left: 30px;
@@ -19,14 +19,14 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.worker-text {
+.team__container {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 32px;
   padding-right: 32px;
 }
 
-.title-worker {
+.team__employee-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -35,7 +35,7 @@
   margin-bottom: 10px;
 }
 
-.team-function {
+.team__function {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;

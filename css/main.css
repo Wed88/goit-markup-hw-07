@@ -110,28 +110,28 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon {
+.social-link__icon {
   width: 20px;
   height: 20px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-team-link {
+.team__social-link {
   background-color: inherit;
 }
 
-.social-team-link:hover,
-.social-team-link:focus {
+.team__social-link:hover,
+.team__social-link:focus {
   background-color: #2196f3;
 }
 
-.social-team-icon {
+.team__social-icon {
   fill: #afb1b8;
 }
 
-.social-team-link:hover .social-team-icon,
-.social-team-link:focus .social-team-icon {
+.team__social-link:hover .team__social-icon,
+.team__social-link:focus .team__social-icon {
   fill: #ffffff;
 }
 
@@ -618,18 +618,18 @@ img {
   padding: 27px;
 }
 
-.section-team {
+.team {
   background: #f5f4fa;
 }
 
-.list-team {
+.team__list {
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
 }
 
-.item-team {
+.team__item {
   flex-basis: calc((100% - 120px) / 4);
   margin-top: 30px;
   margin-left: 30px;
@@ -638,14 +638,14 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.worker-text {
+.team__container {
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 32px;
   padding-right: 32px;
 }
 
-.title-worker {
+.team__employee-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -654,7 +654,7 @@ img {
   margin-bottom: 10px;
 }
 
-.team-function {
+.team__function {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;

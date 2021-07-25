@@ -14,28 +14,28 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-icon {
+.social-link__icon {
   width: 20px;
   height: 20px;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-team-link {
+.team__social-link {
   background-color: inherit;
 }
 
-.social-team-link:hover,
-.social-team-link:focus {
+.team__social-link:hover,
+.team__social-link:focus {
   background-color: #2196f3;
 }
 
-.social-team-icon {
+.team__social-icon {
   fill: #afb1b8;
 }
 
-.social-team-link:hover .social-team-icon,
-.social-team-link:focus .social-team-icon {
+.team__social-link:hover .team__social-icon,
+.team__social-link:focus .team__social-icon {
   fill: #ffffff;
 }
 
